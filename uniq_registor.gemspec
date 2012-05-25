@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'uniq-registor'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2012-05-25'
   s.summary     = "Redis based uniq-registor for regist unique name or id for rails model"
   s.description = ''
