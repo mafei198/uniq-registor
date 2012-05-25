@@ -33,7 +33,7 @@ module RegistorCallbacks
   module InstanceMethods
     private
     def set_primary_key_value
-      self.send "#{self.primary_key}=", self.class.regist_uniq_id
+      self.send "#{self.class.primary_key}=", self.class.regist_uniq_id
     end
   end # InstanceMethods
 end
